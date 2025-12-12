@@ -239,7 +239,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="relative w-full h-48 sm:h-96 min-h-150 mt-12 lg:mt-20">
+          <div className="relative w-full h-48 sm:h-96 min-h-165 mt-12 lg:mt-20">
             <Image
               src="/img/bg2.png"
               alt=""
@@ -247,15 +247,30 @@ export default function Home() {
               className="object-cover z-0"
               priority
             />
-            <div className="relative m-auto py-10">
-              <div className="w-3/4 m-auto text-center h-34 lg:h-100">
-                <h1 className="text-7xl text-white font-extrabold underline decoration-6 underline-offset-10">
+            <div className="relative m-auto py-10 justify-center items-center mt-center">
+              <div className="w-4/4 m-auto text-center h-34 lg:h-100">
+                <h1 className="text-7xl text-white tracking-widest font-extrabold underline decoration-6 underline-offset-10">
                   Exemples de nos créations
                 </h1>
-                  <div className="flex  justify-center relative h-full gap-20">
-                  <div className="bg-white w-108 h-64 mt-10  rounded-lg backdrop-blur-sm shadow-2xl ">
+                  <div className="flex py-15 justify-center relative h-full gap-20">
+                  <div className=" w-120 h-64 mt-10  rounded-lg backdrop-blur-sm shadow-2xl ">
+                  <Image
+                  src="/img/Website1.png"
+                  alt="Yelli1"
+                  fill
+                  className="object-cover rounded-xl"
+                  priority
+                  />
                   </div>
-                  <div className="bg-white w-108 h-64 mt-35 rounded-lg backdrop-blur-sm shadow-2xl "></div>
+                  <div className="w-120 h-64 mt-35 backdrop-blur-sm shadow-2xl ">
+                    <Image
+                  src="/img/Website2.png"
+                  alt="Yelli2"
+                  fill
+                  className="object-cover rounded-xl"
+                  priority
+                    />
+                  </div>
                 </div>
               </div>
 
