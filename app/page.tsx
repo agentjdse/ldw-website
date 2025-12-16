@@ -62,7 +62,7 @@ export default function Home() {
               Nous créons des expériences digitales qui font la différence. Du design élégant aux fonctionnalités innovantes, chaque détail est pensé pour valoriser votre marque et engager votre audience.
             </p>
             <div className="mt-2">
-              <ButtonCTA text="Découvrir nos solutions"/>
+              <ButtonCTA2 text="Découvrir nos solutions"/>
             </div>
           </div>
           
