@@ -2,7 +2,7 @@
   import Navbar from "@/components/navbar";
   import ButtonCTA from "@/components/btnCTA";
   import ButtonCTA2 from "@/components/btnCTA2";
-  import {Footer} from "@/components/footer";
+  import Footer from "@/components/footer";
 
   export default function Home() {
     return (
